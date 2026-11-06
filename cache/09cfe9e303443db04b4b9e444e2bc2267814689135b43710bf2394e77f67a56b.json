@@ -1,0 +1,24 @@
+{
+  "model": "gemini-2.5-flash",
+  "input_tokens": 165,
+  "output_tokens": 92,
+  "response": {
+    "annual_salary": null,
+    "monthly_salary": null,
+    "ctc": 1800000,
+    "is_ctc_only": true,
+    "partial_year_hint": false,
+    "age": 28,
+    "basic": null,
+    "hra_received": null,
+    "rent_paid": null,
+    "metro": null,
+    "invalid_metro_claim": false,
+    "sec80c": null,
+    "sec80ccd1b": null,
+    "sec80d_self": null,
+    "sec80d_parents": null,
+    "parents_senior": false,
+    "home_loan_interest": null
+  }
+}

@@ -1,0 +1,90 @@
+{
+  "total_records": 240000,
+  "total_columns": 44,
+  "anomalies": {
+    "duplicate_unique_keys": {
+      "count": 0,
+      "pct": 0.0
+    },
+    "closed_before_created": {
+      "count": 226,
+      "pct": 0.0942,
+      "examples": [
+        {
+          "unique_key": "56545596",
+          "created_date": "2023-01-17T09:13:00.000",
+          "closed_date": "2023-01-16T09:12:00.000"
+        },
+        {
+          "unique_key": "56548261",
+          "created_date": "2023-01-17T10:14:00.000",
+          "closed_date": "2023-01-16T09:37:00.000"
+        },
+        {
+          "unique_key": "56546592",
+          "created_date": "2023-01-17T10:16:00.000",
+          "closed_date": "2023-01-16T10:15:00.000"
+        }
+      ]
+    },
+    "out_of_bounds_coordinates": {
+      "count": 0,
+      "pct": 0.0,
+      "examples": []
+    },
+    "high_null_columns": {
+      "descriptor_2": 151388,
+      "facility_type": 238749,
+      "due_date": 239327,
+      "vehicle_type": 238596,
+      "taxi_company_borough": 239882,
+      "taxi_pick_up_location": 237503,
+      "bridge_highway_name": 238195,
+      "bridge_highway_direction": 239051,
+      "road_ramp": 239422,
+      "bridge_highway_segment": 238199
+    },
+    "agency_zip_null_counts": {
+      "DCWP": 4,
+      "DEP": 3,
+      "DHS": 959,
+      "DOB": 29,
+      "DOE": 2,
+      "DOHMH": 15,
+      "DOT": 723,
+      "DPR": 8,
+      "DSNY": 368,
+      "EDC": 0,
+      "HPD": 0,
+      "NYPD": 530,
+      "OTI": 0,
+      "TLC": 40
+    },
+    "status_contradictions": {
+      "count": 1810,
+      "pct": 0.7542,
+      "examples": [
+        {
+          "unique_key": "56416700",
+          "status": "Closed",
+          "resolution": "A hearing was scheduled at the OATH/Taxi and Limousine Tribunal."
+        },
+        {
+          "unique_key": "56414836",
+          "status": "Closed",
+          "resolution": "The Department of Health and Mental Hygiene found violations on the property you reported. Follow-up inspections will be"
+        },
+        {
+          "unique_key": "56417549",
+          "status": "Closed",
+          "resolution": "The Department of Health and Mental Hygiene found violations on the property you reported. Follow-up inspections will be"
+        }
+      ]
+    },
+    "pii_in_free_text": {
+      "phone_like_count": 7973,
+      "email_like_count": 315,
+      "scrubbed_sample": "1 or 2 The Health Department\u00e2\u0080\u0099s Office of Environmental Investigations has determined this case was an isolated incident. The Department\u00e2\u0080\u0099s Bureau o"
+    }
+  }
+}

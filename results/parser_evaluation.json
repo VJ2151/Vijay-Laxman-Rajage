@@ -1,0 +1,746 @@
+{
+  "total_descriptions": 50,
+  "total_extraction_cases": 22,
+  "total_clarification_cases": 28,
+  "extraction_accuracy": 1.0,
+  "clarification_accuracy": 1.0,
+  "guess_rate": 0.0,
+  "results": [
+    {
+      "id": "DESC_01",
+      "text": "I am 30 years old, earning 15 lakhs per annum as gross salary. I don't have any investments or rent.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1500000.0,
+        "age": 30,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_02",
+      "text": "My age is 28. Annual gross salary is 12 LPA. I invest 1.5 lakh in 80C and pay 25000 health insurance for myself.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1200000.0,
+        "age": 28,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 150000.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 25000.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_03",
+      "text": "I am 62 years senior citizen. Gross salary 8,50,000 annually. No deductions.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 850000.0,
+        "age": 62,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_04",
+      "text": "Age 35, gross salary 25,00,000 per year. Basic is 10,00,000, HRA received 4,00,000, paying rent 35,000 per month in Mumbai.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 2500000.0,
+        "age": 35,
+        "basic": 1000000.0,
+        "hra_received": 400000.0,
+        "rent_paid": 420000.0,
+        "metro": true,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_05",
+      "text": "I earn 6.5 LPA gross. Age 24. No investments.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 650000.0,
+        "age": 24,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_06",
+      "text": "Gross salary is Rs 50,00,000 per year, age 45. NPS 80CCD(1B) 50000, 80C 150000.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 5000000.0,
+        "age": 45,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 150000.0,
+        "sec80ccd1b": 50000.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_07",
+      "text": "Age 82 super senior, gross pension salary 10 LPA. 80D parents senior 50000.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1000000.0,
+        "age": 82,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": true,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 50000.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_08",
+      "text": "Annual salary 18 lakhs, age 33. Home loan interest 2 lakhs on self-occupied flat.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1800000.0,
+        "age": 33,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 200000.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_09",
+      "text": "I am 29 years old. Gross salary 22 LPA. Basic 8.8L, HRA 3.5L, rent 25000 monthly in Pune.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 2200000.0,
+        "age": 29,
+        "basic": 880000.0,
+        "hra_received": 350000.0,
+        "rent_paid": 300000.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_10",
+      "text": "Annual salary 750000, age 26. 80C 50000.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 750000.0,
+        "age": 26,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 50000.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_11",
+      "text": "I get 1,00,000 monthly gross salary. Age 30. No deductions.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1200000.0,
+        "age": 30,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_12",
+      "text": "My monthly salary is 50k. Age 25. 80C is 50000.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 600000.0,
+        "age": 25,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 50000.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_13",
+      "text": "Age 38, getting Rs 2,50,000 per month gross. No rent or loan.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 3000000.0,
+        "age": 38,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_14",
+      "text": "Monthly pay is 80000, age 31. Basic 32000, HRA 16000, rent 20000 in Delhi.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 960000.0,
+        "age": 31,
+        "basic": 384000.0,
+        "hra_received": 192000.0,
+        "rent_paid": 240000.0,
+        "metro": true,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_15",
+      "text": "Mera monthly salary 70000 rupees hai. Age 27. PPF me 1 lakh lagaya hai.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 840000.0,
+        "age": 27,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 100000.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_16",
+      "text": "Monthly gross 1.5 lakhs, age 42. Home loan interest 1.5 lakhs.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1800000.0,
+        "age": 42,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 150000.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_17",
+      "text": "I am 34, salary 60k per month. Parents are senior citizens, medical insurance 40000.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 720000.0,
+        "age": 34,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": true,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 40000.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_18",
+      "text": "Monthly 1.2 lakh, age 29. No other details.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1440000.0,
+        "age": 29,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_19",
+      "text": "Per month 95,000 gross. Age 36.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1140000.0,
+        "age": 36,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_20",
+      "text": "Getting 45000 per month, age 23.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 540000.0,
+        "age": 23,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_21",
+      "text": "My CTC is 18 LPA at Google. Age 28.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_22",
+      "text": "Got a job offer of 24 LPA CTC. How much tax will I pay? Age 26.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_23",
+      "text": "Company CTC package is 12 lakhs. Age 32.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_24",
+      "text": "CTC 40 LPA, age 35, 80C 1.5L.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_25",
+      "text": "Mera CTC 15 lakh hai. Age 29.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_26",
+      "text": "CTC is 9.5 LPA, age 24.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_27",
+      "text": "I have 30 LPA CTC including stocks. Age 33.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_28",
+      "text": "CTC is 6 LPA, age 22.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_29",
+      "text": "Offer letter says CTC 16,50,000. Age 30.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_30",
+      "text": "CTC 50 lakhs, age 40.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "CTC package provided without taxable gross salary. Please provide your annual gross salary or salary breakdown.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_31",
+      "text": "I earn 12 LPA annual salary, but my monthly gross is 80k. Age 30.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Contradictory salary stated: 1200000 annual vs 80000/month (960000.0 annualized). Please clarify your gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_32",
+      "text": "Gross 15 lakhs per year, monthly 1.5 lakhs. Age 32.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Contradictory salary stated: 1500000 annual vs 150000/month (1800000.0 annualized). Please clarify your gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_33",
+      "text": "My salary is 6 LPA, but monthly slip shows 40000. Age 25.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Contradictory salary stated: 600000 annual vs 40000/month (480000.0 annualized). Please clarify your gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_34",
+      "text": "Annual package 20 LPA, getting 1.2 lakh per month gross. Age 35.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Contradictory salary stated: 2000000 annual vs 120000/month (1440000.0 annualized). Please clarify your gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_35",
+      "text": "Salary 10 LPA and per month 100000. Age 29.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Contradictory salary stated: 1000000 annual vs 100000/month (1200000.0 annualized). Please clarify your gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_36",
+      "text": "Gross salary 14 LPA, age 30. I pay rent 25000 per month.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "HRA exemption requires basic salary, HRA received, rent paid, and metro city. Please provide missing HRA fields.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_37",
+      "text": "Earning 18 LPA, paying 30000 rent in Bangalore. Age 31.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "HRA exemption requires basic salary, HRA received, rent paid, and metro city. Please provide missing HRA fields.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_38",
+      "text": "Age 28, salary 10 LPA. HRA received is 2 LPA but don't know rent.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "HRA exemption requires basic salary, HRA received, rent paid, and metro city. Please provide missing HRA fields.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_39",
+      "text": "Monthly gross 80000, age 29. Paying rent in Mumbai.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "HRA exemption requires basic salary, HRA received, rent paid, and metro city. Please provide missing HRA fields.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_40",
+      "text": "Gross 22 LPA, age 33. Basic 8L, paying rent 20k, but HRA not specified.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "HRA exemption requires basic salary, HRA received, rent paid, and metro city. Please provide missing HRA fields.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_41",
+      "text": "I earn 12 lakhs gross salary. 80C is 1.5L. (Age not mentioned)",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Taxpayer age is missing. Please provide your age to determine exemption limits.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_42",
+      "text": "Gross salary is 20 LPA. What is my tax?",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Taxpayer age is missing. Please provide your age to determine exemption limits.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_43",
+      "text": "I am 30 years old, investing 1.5L in 80C. (Salary not mentioned)",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Gross salary is missing. Please provide your annual or monthly gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_44",
+      "text": "Paying 20000 rent in Chennai, age 28.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Gross salary is missing. Please provide your annual or monthly gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_45",
+      "text": "Age 35, home loan interest 2 lakhs.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Gross salary is missing. Please provide your annual or monthly gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_46",
+      "text": "Bhai meri age 29 hai aur salana salary 16 lakh gross hai. Basic 6.4L, HRA 2.5L, rent 20000 per month Mumbai me deta hu.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 1600000.0,
+        "age": 29,
+        "basic": 640000.0,
+        "hra_received": 250000.0,
+        "rent_paid": 240000.0,
+        "metro": true,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_47",
+      "text": "Mera gross salary 9.5 LPA hai, umar 31 saal. Koi deduction nahi hai.",
+      "expected_clarification": false,
+      "asked_clarification": false,
+      "question": null,
+      "inputs": {
+        "gross_salary": 950000.0,
+        "age": 31,
+        "basic": 0.0,
+        "hra_received": 0.0,
+        "rent_paid": 0.0,
+        "metro": false,
+        "parents_senior": false,
+        "sec80c": 0.0,
+        "sec80ccd1b": 0.0,
+        "sec80d_self": 0.0,
+        "sec80d_parents": 0.0,
+        "home_loan_interest": 0.0
+      },
+      "has_tax": true
+    },
+    {
+      "id": "DESC_48",
+      "text": "Age 27, gross salary 11 LPA. I stay in Ahmedabad and consider it metro.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Only Delhi, Mumbai, Kolkata, and Chennai qualify for 50% metro HRA under Rule 2A. Please confirm city.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_49",
+      "text": "Joined company mid-year in October, monthly gross 1.2 lakhs. Age 28.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Text hints at partial year, mid-year joining, or variable pay. Please confirm your full expected annual gross salary.",
+      "inputs": null,
+      "has_tax": false
+    },
+    {
+      "id": "DESC_50",
+      "text": "Gross salary 14 LPA, age 32. Variable bonus may be added later.",
+      "expected_clarification": true,
+      "asked_clarification": true,
+      "question": "Text hints at partial year, mid-year joining, or variable pay. Please confirm your full expected annual gross salary.",
+      "inputs": null,
+      "has_tax": false
+    }
+  ]
+}

@@ -1,0 +1,3251 @@
+[
+  {
+    "case_id": "TC25_001",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1200000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1150000,
+        "slab_tax": 157500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 6300.0,
+        "total_tax": 163800
+      },
+      "new": {
+        "gross": 1200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1125000,
+        "slab_tax": 52500.0,
+        "rebate": 52500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 163800
+    },
+    "note": "Gross 1200000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_002",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1220000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1220000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1170000,
+        "slab_tax": 163500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 6540.0,
+        "total_tax": 170040
+      },
+      "new": {
+        "gross": 1220000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1145000,
+        "slab_tax": 54500.0,
+        "rebate": 54500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 170040
+    },
+    "note": "Gross 1220000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_003",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1250000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1250000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1200000,
+        "slab_tax": 172500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 6900.0,
+        "total_tax": 179400
+      },
+      "new": {
+        "gross": 1250000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1175000,
+        "slab_tax": 57500.0,
+        "rebate": 57500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 179400
+    },
+    "note": "Gross 1250000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_004",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1270000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1270000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1220000,
+        "slab_tax": 178500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7140.0,
+        "total_tax": 185640
+      },
+      "new": {
+        "gross": 1270000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1195000,
+        "slab_tax": 59500.0,
+        "rebate": 59500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 185640
+    },
+    "note": "Gross 1270000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_005",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1274990,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1274990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1224990,
+        "slab_tax": 179997.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7199.88,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1274990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1199990,
+        "slab_tax": 59999.0,
+        "rebate": 59999.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1274990: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_006",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1275000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1275000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1225000,
+        "slab_tax": 180000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7200.0,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1275000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1200000,
+        "slab_tax": 60000.0,
+        "rebate": 60000.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1275000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_007",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1275010,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1275010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1225010,
+        "slab_tax": 180003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7200.12,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1275010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1200010,
+        "slab_tax": 60001.5,
+        "rebate": 59991.5,
+        "surcharge": 0.0,
+        "marginal_relief": 59991.5,
+        "cess": 0.4,
+        "total_tax": 10
+      },
+      "recommended": "new",
+      "savings": 187190
+    },
+    "note": "Gross 1275010: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_008",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1280000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1280000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1230000,
+        "slab_tax": 181500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7260.0,
+        "total_tax": 188760
+      },
+      "new": {
+        "gross": 1280000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1205000,
+        "slab_tax": 60750.0,
+        "rebate": 55750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 55750.0,
+        "cess": 200.0,
+        "total_tax": 5200
+      },
+      "recommended": "new",
+      "savings": 183560
+    },
+    "note": "Gross 1280000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_009",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1290000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1290000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1240000,
+        "slab_tax": 184500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7380.0,
+        "total_tax": 191880
+      },
+      "new": {
+        "gross": 1290000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1215000,
+        "slab_tax": 62250.0,
+        "rebate": 47250.0,
+        "surcharge": 0.0,
+        "marginal_relief": 47250.0,
+        "cess": 600.0,
+        "total_tax": 15600
+      },
+      "recommended": "new",
+      "savings": 176280
+    },
+    "note": "Gross 1290000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_010",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1300000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1300000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1250000,
+        "slab_tax": 187500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7500.0,
+        "total_tax": 195000
+      },
+      "new": {
+        "gross": 1300000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1225000,
+        "slab_tax": 63750.0,
+        "rebate": 38750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 38750.0,
+        "cess": 1000.0,
+        "total_tax": 26000
+      },
+      "recommended": "new",
+      "savings": 169000
+    },
+    "note": "Gross 1300000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_011",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1310000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1310000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1260000,
+        "slab_tax": 190500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7620.0,
+        "total_tax": 198120
+      },
+      "new": {
+        "gross": 1310000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1235000,
+        "slab_tax": 65250.0,
+        "rebate": 30250.0,
+        "surcharge": 0.0,
+        "marginal_relief": 30250.0,
+        "cess": 1400.0,
+        "total_tax": 36400
+      },
+      "recommended": "new",
+      "savings": 161720
+    },
+    "note": "Gross 1310000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_012",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1320000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1320000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1270000,
+        "slab_tax": 193500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7740.0,
+        "total_tax": 201240
+      },
+      "new": {
+        "gross": 1320000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1245000,
+        "slab_tax": 66750.0,
+        "rebate": 21750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 21750.0,
+        "cess": 1800.0,
+        "total_tax": 46800
+      },
+      "recommended": "new",
+      "savings": 154440
+    },
+    "note": "Gross 1320000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_013",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1330000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1330000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1280000,
+        "slab_tax": 196500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7860.0,
+        "total_tax": 204360
+      },
+      "new": {
+        "gross": 1330000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1255000,
+        "slab_tax": 68250.0,
+        "rebate": 13250.0,
+        "surcharge": 0.0,
+        "marginal_relief": 13250.0,
+        "cess": 2200.0,
+        "total_tax": 57200
+      },
+      "recommended": "new",
+      "savings": 147160
+    },
+    "note": "Gross 1330000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_014",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1340000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1340000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1290000,
+        "slab_tax": 199500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7980.0,
+        "total_tax": 207480
+      },
+      "new": {
+        "gross": 1340000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1265000,
+        "slab_tax": 69750.0,
+        "rebate": 4750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 4750.0,
+        "cess": 2600.0,
+        "total_tax": 67600
+      },
+      "recommended": "new",
+      "savings": 139880
+    },
+    "note": "Gross 1340000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_015",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1350000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1350000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1300000,
+        "slab_tax": 202500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8100.0,
+        "total_tax": 210600
+      },
+      "new": {
+        "gross": 1350000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1275000,
+        "slab_tax": 71250.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2850.0,
+        "total_tax": 74100
+      },
+      "recommended": "new",
+      "savings": 136500
+    },
+    "note": "Gross 1350000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_016",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1360000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1360000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1310000,
+        "slab_tax": 205500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8220.0,
+        "total_tax": 213720
+      },
+      "new": {
+        "gross": 1360000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1285000,
+        "slab_tax": 72750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2910.0,
+        "total_tax": 75660
+      },
+      "recommended": "new",
+      "savings": 138060
+    },
+    "note": "Gross 1360000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_017",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1370000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1370000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1320000,
+        "slab_tax": 208500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8340.0,
+        "total_tax": 216840
+      },
+      "new": {
+        "gross": 1370000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1295000,
+        "slab_tax": 74250.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2970.0,
+        "total_tax": 77220
+      },
+      "recommended": "new",
+      "savings": 139620
+    },
+    "note": "Gross 1370000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_018",
+    "category": "87a_12l_rebate_and_relief_2025",
+    "inputs": {
+      "gross_salary": 1380000,
+      "age": 30
+    },
+    "expected": {
+      "old": {
+        "gross": 1380000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1330000,
+        "slab_tax": 211500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8460.0,
+        "total_tax": 219960
+      },
+      "new": {
+        "gross": 1380000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1305000,
+        "slab_tax": 75750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3030.0,
+        "total_tax": 78780
+      },
+      "recommended": "new",
+      "savings": 141180
+    },
+    "note": "Gross 1380000: Tests FY25-26 12L taxable threshold and Sec 87A proviso marginal relief."
+  },
+  {
+    "case_id": "TC25_019",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 474900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 474900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 424900,
+        "slab_tax": 8745.0,
+        "rebate": 8745.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 474900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 399900,
+        "slab_tax": 0.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Gross 474900 around slab boundary 400000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_020",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 474990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 474990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 424990,
+        "slab_tax": 8749.5,
+        "rebate": 8749.5,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 474990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 399990,
+        "slab_tax": 0.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Gross 474990 around slab boundary 400000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_021",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 475000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 475000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 425000,
+        "slab_tax": 8750.0,
+        "rebate": 8750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 475000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 400000,
+        "slab_tax": 0.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Gross 475000 around slab boundary 400000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_022",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 475010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 475010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 425010,
+        "slab_tax": 8750.5,
+        "rebate": 8750.5,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 475010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 400010,
+        "slab_tax": 0.5,
+        "rebate": 0.5,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Gross 475010 around slab boundary 400000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_023",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 475100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 475100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 425100,
+        "slab_tax": 8755.0,
+        "rebate": 8755.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 475100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 400100,
+        "slab_tax": 5.0,
+        "rebate": 5.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Gross 475100 around slab boundary 400000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_024",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 874900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 874900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 824900,
+        "slab_tax": 77480.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3099.2000000000003,
+        "total_tax": 80580
+      },
+      "new": {
+        "gross": 874900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 799900,
+        "slab_tax": 19995.0,
+        "rebate": 19995.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 80580
+    },
+    "note": "Gross 874900 around slab boundary 800000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_025",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 874990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 874990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 824990,
+        "slab_tax": 77498.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3099.92,
+        "total_tax": 80600
+      },
+      "new": {
+        "gross": 874990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 799990,
+        "slab_tax": 19999.5,
+        "rebate": 19999.5,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 80600
+    },
+    "note": "Gross 874990 around slab boundary 800000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_026",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 875000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 875000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 825000,
+        "slab_tax": 77500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3100.0,
+        "total_tax": 80600
+      },
+      "new": {
+        "gross": 875000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 800000,
+        "slab_tax": 20000.0,
+        "rebate": 20000.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 80600
+    },
+    "note": "Gross 875000 around slab boundary 800000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_027",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 875010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 875010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 825010,
+        "slab_tax": 77502.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3100.08,
+        "total_tax": 80600
+      },
+      "new": {
+        "gross": 875010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 800010,
+        "slab_tax": 20001.0,
+        "rebate": 20001.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 80600
+    },
+    "note": "Gross 875010 around slab boundary 800000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_028",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 875100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 875100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 825100,
+        "slab_tax": 77520.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3100.8,
+        "total_tax": 80620
+      },
+      "new": {
+        "gross": 875100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 800100,
+        "slab_tax": 20010.0,
+        "rebate": 20010.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 80620
+    },
+    "note": "Gross 875100 around slab boundary 800000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_029",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1274900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1274900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1224900,
+        "slab_tax": 179970.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7198.8,
+        "total_tax": 187170
+      },
+      "new": {
+        "gross": 1274900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1199900,
+        "slab_tax": 59990.0,
+        "rebate": 59990.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 187170
+    },
+    "note": "Gross 1274900 around slab boundary 1200000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_030",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1274990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1274990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1224990,
+        "slab_tax": 179997.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7199.88,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1274990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1199990,
+        "slab_tax": 59999.0,
+        "rebate": 59999.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1274990 around slab boundary 1200000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_031",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1275000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1275000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1225000,
+        "slab_tax": 180000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7200.0,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1275000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1200000,
+        "slab_tax": 60000.0,
+        "rebate": 60000.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1275000 around slab boundary 1200000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_032",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1275010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1275010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1225010,
+        "slab_tax": 180003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7200.12,
+        "total_tax": 187200
+      },
+      "new": {
+        "gross": 1275010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1200010,
+        "slab_tax": 60001.5,
+        "rebate": 59991.5,
+        "surcharge": 0.0,
+        "marginal_relief": 59991.5,
+        "cess": 0.4,
+        "total_tax": 10
+      },
+      "recommended": "new",
+      "savings": 187190
+    },
+    "note": "Gross 1275010 around slab boundary 1200000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_033",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1275100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1275100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1225100,
+        "slab_tax": 180030.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7201.2,
+        "total_tax": 187230
+      },
+      "new": {
+        "gross": 1275100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1200100,
+        "slab_tax": 60015.0,
+        "rebate": 59915.0,
+        "surcharge": 0.0,
+        "marginal_relief": 59915.0,
+        "cess": 4.0,
+        "total_tax": 100
+      },
+      "recommended": "new",
+      "savings": 187130
+    },
+    "note": "Gross 1275100 around slab boundary 1200000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_034",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1674900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1674900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1624900,
+        "slab_tax": 299970.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 11998.800000000001,
+        "total_tax": 311970
+      },
+      "new": {
+        "gross": 1674900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1599900,
+        "slab_tax": 119985.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4799.400000000001,
+        "total_tax": 124780
+      },
+      "recommended": "new",
+      "savings": 187190
+    },
+    "note": "Gross 1674900 around slab boundary 1600000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_035",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1674990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1674990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1624990,
+        "slab_tax": 299997.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 11999.880000000001,
+        "total_tax": 312000
+      },
+      "new": {
+        "gross": 1674990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1599990,
+        "slab_tax": 119998.5,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4799.9400000000005,
+        "total_tax": 124800
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1674990 around slab boundary 1600000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_036",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1675000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1675000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1625000,
+        "slab_tax": 300000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12000.0,
+        "total_tax": 312000
+      },
+      "new": {
+        "gross": 1675000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1600000,
+        "slab_tax": 120000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4800.0,
+        "total_tax": 124800
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1675000 around slab boundary 1600000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_037",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1675010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1675010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1625010,
+        "slab_tax": 300003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12000.12,
+        "total_tax": 312000
+      },
+      "new": {
+        "gross": 1675010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1600010,
+        "slab_tax": 120002.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4800.08,
+        "total_tax": 124800
+      },
+      "recommended": "new",
+      "savings": 187200
+    },
+    "note": "Gross 1675010 around slab boundary 1600000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_038",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 1675100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 1675100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1625100,
+        "slab_tax": 300030.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12001.2,
+        "total_tax": 312030
+      },
+      "new": {
+        "gross": 1675100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1600100,
+        "slab_tax": 120020.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4800.8,
+        "total_tax": 124820
+      },
+      "recommended": "new",
+      "savings": 187210
+    },
+    "note": "Gross 1675100 around slab boundary 1600000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_039",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2074900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2074900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2024900,
+        "slab_tax": 419970.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16798.8,
+        "total_tax": 436770
+      },
+      "new": {
+        "gross": 2074900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1999900,
+        "slab_tax": 199980.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7999.2,
+        "total_tax": 207980
+      },
+      "recommended": "new",
+      "savings": 228790
+    },
+    "note": "Gross 2074900 around slab boundary 2000000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_040",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2074990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2074990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2024990,
+        "slab_tax": 419997.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16799.88,
+        "total_tax": 436800
+      },
+      "new": {
+        "gross": 2074990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1999990,
+        "slab_tax": 199998.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7999.92,
+        "total_tax": 208000
+      },
+      "recommended": "new",
+      "savings": 228800
+    },
+    "note": "Gross 2074990 around slab boundary 2000000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_041",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2075000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2075000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2025000,
+        "slab_tax": 420000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16800.0,
+        "total_tax": 436800
+      },
+      "new": {
+        "gross": 2075000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2000000,
+        "slab_tax": 200000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8000.0,
+        "total_tax": 208000
+      },
+      "recommended": "new",
+      "savings": 228800
+    },
+    "note": "Gross 2075000 around slab boundary 2000000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_042",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2075010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2075010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2025010,
+        "slab_tax": 420003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16800.12,
+        "total_tax": 436800
+      },
+      "new": {
+        "gross": 2075010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2000010,
+        "slab_tax": 200002.5,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8000.1,
+        "total_tax": 208000
+      },
+      "recommended": "new",
+      "savings": 228800
+    },
+    "note": "Gross 2075010 around slab boundary 2000000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_043",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2075100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2075100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2025100,
+        "slab_tax": 420030.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16801.2,
+        "total_tax": 436830
+      },
+      "new": {
+        "gross": 2075100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2000100,
+        "slab_tax": 200025.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 8001.0,
+        "total_tax": 208030
+      },
+      "recommended": "new",
+      "savings": 228800
+    },
+    "note": "Gross 2075100 around slab boundary 2000000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_044",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2474900,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2474900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2424900,
+        "slab_tax": 539970.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 21598.8,
+        "total_tax": 561570
+      },
+      "new": {
+        "gross": 2474900.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2399900,
+        "slab_tax": 299975.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 11999.0,
+        "total_tax": 311970
+      },
+      "recommended": "new",
+      "savings": 249600
+    },
+    "note": "Gross 2474900 around slab boundary 2400000 (offset -100)."
+  },
+  {
+    "case_id": "TC25_045",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2474990,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2474990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2424990,
+        "slab_tax": 539997.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 21599.88,
+        "total_tax": 561600
+      },
+      "new": {
+        "gross": 2474990.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2399990,
+        "slab_tax": 299997.5,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 11999.9,
+        "total_tax": 312000
+      },
+      "recommended": "new",
+      "savings": 249600
+    },
+    "note": "Gross 2474990 around slab boundary 2400000 (offset -10)."
+  },
+  {
+    "case_id": "TC25_046",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2475000,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2475000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2425000,
+        "slab_tax": 540000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 21600.0,
+        "total_tax": 561600
+      },
+      "new": {
+        "gross": 2475000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2400000,
+        "slab_tax": 300000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12000.0,
+        "total_tax": 312000
+      },
+      "recommended": "new",
+      "savings": 249600
+    },
+    "note": "Gross 2475000 around slab boundary 2400000 (offset 0)."
+  },
+  {
+    "case_id": "TC25_047",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2475010,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2475010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2425010,
+        "slab_tax": 540003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 21600.12,
+        "total_tax": 561600
+      },
+      "new": {
+        "gross": 2475010.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2400010,
+        "slab_tax": 300003.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12000.12,
+        "total_tax": 312000
+      },
+      "recommended": "new",
+      "savings": 249600
+    },
+    "note": "Gross 2475010 around slab boundary 2400000 (offset 10)."
+  },
+  {
+    "case_id": "TC25_048",
+    "category": "slab_edges_2025",
+    "inputs": {
+      "gross_salary": 2475100,
+      "age": 32
+    },
+    "expected": {
+      "old": {
+        "gross": 2475100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2425100,
+        "slab_tax": 540030.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 21601.2,
+        "total_tax": 561630
+      },
+      "new": {
+        "gross": 2475100.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2400100,
+        "slab_tax": 300030.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12001.2,
+        "total_tax": 312030
+      },
+      "recommended": "new",
+      "savings": 249600
+    },
+    "note": "Gross 2475100 around slab boundary 2400000 (offset 100)."
+  },
+  {
+    "case_id": "TC25_049",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 600000,
+      "age": 30,
+      "sec80c": 100000
+    },
+    "expected": {
+      "old": {
+        "gross": 600000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 100000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 450000,
+        "slab_tax": 10000.0,
+        "rebate": 10000.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 600000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 525000,
+        "slab_tax": 6250.0,
+        "rebate": 6250.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Old regime check for Gross 600000."
+  },
+  {
+    "case_id": "TC25_050",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 900000,
+      "basic": 360000,
+      "hra_received": 150000,
+      "rent_paid": 180000,
+      "metro": true,
+      "age": 35
+    },
+    "expected": {
+      "old": {
+        "gross": 900000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 144000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 706000,
+        "slab_tax": 53700.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2148.0,
+        "total_tax": 55850
+      },
+      "new": {
+        "gross": 900000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 825000,
+        "slab_tax": 22500.0,
+        "rebate": 22500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 55850
+    },
+    "note": "Old regime check for Gross 900000."
+  },
+  {
+    "case_id": "TC25_051",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 1500000,
+      "age": 65,
+      "sec80c": 150000,
+      "sec80d_self": 40000
+    },
+    "expected": {
+      "old": {
+        "gross": 1500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 150000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 40000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1260000,
+        "slab_tax": 188000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7520.0,
+        "total_tax": 195520
+      },
+      "new": {
+        "gross": 1500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1425000,
+        "slab_tax": 93750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3750.0,
+        "total_tax": 97500
+      },
+      "recommended": "new",
+      "savings": 98020
+    },
+    "note": "Old regime check for Gross 1500000."
+  },
+  {
+    "case_id": "TC25_052",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 2500000,
+      "age": 40,
+      "home_loan_interest": 200000,
+      "sec80ccd1b": 50000
+    },
+    "expected": {
+      "old": {
+        "gross": 2500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 200000.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 50000.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2200000,
+        "slab_tax": 472500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 18900.0,
+        "total_tax": 491400
+      },
+      "new": {
+        "gross": 2500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2425000,
+        "slab_tax": 307500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12300.0,
+        "total_tax": 319800
+      },
+      "recommended": "new",
+      "savings": 171600
+    },
+    "note": "Old regime check for Gross 2500000."
+  },
+  {
+    "case_id": "TC25_053",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 5500000,
+      "age": 45
+    },
+    "expected": {
+      "old": {
+        "gross": 5500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 5450000,
+        "slab_tax": 1447500.0,
+        "rebate": 0.0,
+        "surcharge": 144750.0,
+        "marginal_relief": 0.0,
+        "cess": 63690.0,
+        "total_tax": 1655940
+      },
+      "new": {
+        "gross": 5500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 5425000,
+        "slab_tax": 1207500.0,
+        "rebate": 0.0,
+        "surcharge": 120750.0,
+        "marginal_relief": 0.0,
+        "cess": 53130.0,
+        "total_tax": 1381380
+      },
+      "recommended": "new",
+      "savings": 274560
+    },
+    "note": "Old regime check for Gross 5500000."
+  },
+  {
+    "case_id": "TC25_054",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 10500000,
+      "age": 50
+    },
+    "expected": {
+      "old": {
+        "gross": 10500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 10450000,
+        "slab_tax": 2947500.0,
+        "rebate": 0.0,
+        "surcharge": 442125.0,
+        "marginal_relief": 0.0,
+        "cess": 135585.0,
+        "total_tax": 3525210
+      },
+      "new": {
+        "gross": 10500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 10425000,
+        "slab_tax": 2707500.0,
+        "rebate": 0.0,
+        "surcharge": 406125.0,
+        "marginal_relief": 0.0,
+        "cess": 124545.0,
+        "total_tax": 3238170
+      },
+      "recommended": "new",
+      "savings": 287040
+    },
+    "note": "Old regime check for Gross 10500000."
+  },
+  {
+    "case_id": "TC25_055",
+    "category": "old_regime_stability",
+    "inputs": {
+      "gross_salary": 20500000,
+      "age": 55
+    },
+    "expected": {
+      "old": {
+        "gross": 20500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 0.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 0.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 0.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 20450000,
+        "slab_tax": 5947500.0,
+        "rebate": 0.0,
+        "surcharge": 1186874.999999999,
+        "marginal_relief": 300000.00000000093,
+        "cess": 285374.99999999994,
+        "total_tax": 7419750
+      },
+      "new": {
+        "gross": 20500000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 20425000,
+        "slab_tax": 5707500.0,
+        "rebate": 0.0,
+        "surcharge": 1134499.999999999,
+        "marginal_relief": 292375.00000000093,
+        "cess": 273679.99999999994,
+        "total_tax": 7115680
+      },
+      "recommended": "new",
+      "savings": 304070
+    },
+    "note": "Old regime check for Gross 20500000."
+  },
+  {
+    "case_id": "TC25_056",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 450000,
+      "age": 30,
+      "basic": 180000.0,
+      "hra_received": 67500.0,
+      "rent_paid": 90000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 450000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 67500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 187500,
+        "slab_tax": 0.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 450000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 375000,
+        "slab_tax": 0.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Population case Gross=450000."
+  },
+  {
+    "case_id": "TC25_057",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 550000,
+      "age": 30,
+      "basic": 220000.0,
+      "hra_received": 82500.0,
+      "rent_paid": 110000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 550000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 82500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 272500,
+        "slab_tax": 1125.0,
+        "rebate": 1125.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 550000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 475000,
+        "slab_tax": 3750.0,
+        "rebate": 3750.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Population case Gross=550000."
+  },
+  {
+    "case_id": "TC25_058",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 720000,
+      "age": 30,
+      "basic": 288000.0,
+      "hra_received": 108000.0,
+      "rent_paid": 144000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 720000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 108000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 417000,
+        "slab_tax": 8350.0,
+        "rebate": 8350.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "new": {
+        "gross": 720000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 645000,
+        "slab_tax": 12250.0,
+        "rebate": 12250.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 0
+    },
+    "note": "Population case Gross=720000."
+  },
+  {
+    "case_id": "TC25_059",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 890000,
+      "age": 30,
+      "basic": 356000.0,
+      "hra_received": 133500.0,
+      "rent_paid": 178000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 890000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 133500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 561500,
+        "slab_tax": 24800.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 992.0,
+        "total_tax": 25790
+      },
+      "new": {
+        "gross": 890000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 815000,
+        "slab_tax": 21500.0,
+        "rebate": 21500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 25790
+    },
+    "note": "Population case Gross=890000."
+  },
+  {
+    "case_id": "TC25_060",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 1050000,
+      "age": 30,
+      "basic": 420000.0,
+      "hra_received": 157500.0,
+      "rent_paid": 210000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 1050000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 157500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 697500,
+        "slab_tax": 52000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2080.0,
+        "total_tax": 54080
+      },
+      "new": {
+        "gross": 1050000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 975000,
+        "slab_tax": 37500.0,
+        "rebate": 37500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 54080
+    },
+    "note": "Population case Gross=1050000."
+  },
+  {
+    "case_id": "TC25_061",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 1180000,
+      "age": 30,
+      "basic": 472000.0,
+      "hra_received": 177000.0,
+      "rent_paid": 236000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 1180000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 177000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 808000,
+        "slab_tax": 74100.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 2964.0,
+        "total_tax": 77060
+      },
+      "new": {
+        "gross": 1180000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1105000,
+        "slab_tax": 50500.0,
+        "rebate": 50500.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 0.0,
+        "total_tax": 0
+      },
+      "recommended": "new",
+      "savings": 77060
+    },
+    "note": "Population case Gross=1180000."
+  },
+  {
+    "case_id": "TC25_062",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 1420000,
+      "age": 30,
+      "basic": 568000.0,
+      "hra_received": 213000.0,
+      "rent_paid": 284000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 1420000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 213000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1012000,
+        "slab_tax": 116100.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4644.0,
+        "total_tax": 120740
+      },
+      "new": {
+        "gross": 1420000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1345000,
+        "slab_tax": 81750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 3270.0,
+        "total_tax": 85020
+      },
+      "recommended": "new",
+      "savings": 35720
+    },
+    "note": "Population case Gross=1420000."
+  },
+  {
+    "case_id": "TC25_063",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 1680000,
+      "age": 30,
+      "basic": 672000.0,
+      "hra_received": 252000.0,
+      "rent_paid": 336000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 1680000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 252000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1233000,
+        "slab_tax": 182400.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7296.0,
+        "total_tax": 189700
+      },
+      "new": {
+        "gross": 1680000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1605000,
+        "slab_tax": 121000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 4840.0,
+        "total_tax": 125840
+      },
+      "recommended": "new",
+      "savings": 63860
+    },
+    "note": "Population case Gross=1680000."
+  },
+  {
+    "case_id": "TC25_064",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 1950000,
+      "age": 30,
+      "basic": 780000.0,
+      "hra_received": 292500.0,
+      "rent_paid": 390000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 1950000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 292500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1462500,
+        "slab_tax": 251250.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 10050.0,
+        "total_tax": 261300
+      },
+      "new": {
+        "gross": 1950000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 1875000,
+        "slab_tax": 175000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 7000.0,
+        "total_tax": 182000
+      },
+      "recommended": "new",
+      "savings": 79300
+    },
+    "note": "Population case Gross=1950000."
+  },
+  {
+    "case_id": "TC25_065",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 2250000,
+      "age": 30,
+      "basic": 900000.0,
+      "hra_received": 337500.0,
+      "rent_paid": 450000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 2250000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 337500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1717500,
+        "slab_tax": 327750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 13110.0,
+        "total_tax": 340860
+      },
+      "new": {
+        "gross": 2250000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2175000,
+        "slab_tax": 243750.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 9750.0,
+        "total_tax": 253500
+      },
+      "recommended": "new",
+      "savings": 87360
+    },
+    "note": "Population case Gross=2250000."
+  },
+  {
+    "case_id": "TC25_066",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 2550000,
+      "age": 30,
+      "basic": 1020000.0,
+      "hra_received": 382500.0,
+      "rent_paid": 510000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 2550000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 382500.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 1972500,
+        "slab_tax": 404250.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 16170.0,
+        "total_tax": 420420
+      },
+      "new": {
+        "gross": 2550000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2475000,
+        "slab_tax": 322500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 12900.0,
+        "total_tax": 335400
+      },
+      "recommended": "new",
+      "savings": 85020
+    },
+    "note": "Population case Gross=2550000."
+  },
+  {
+    "case_id": "TC25_067",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 2900000,
+      "age": 30,
+      "basic": 1160000.0,
+      "hra_received": 435000.0,
+      "rent_paid": 580000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 2900000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 435000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2270000,
+        "slab_tax": 493500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 19740.0,
+        "total_tax": 513240
+      },
+      "new": {
+        "gross": 2900000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 2825000,
+        "slab_tax": 427500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 17100.0,
+        "total_tax": 444600
+      },
+      "recommended": "new",
+      "savings": 68640
+    },
+    "note": "Population case Gross=2900000."
+  },
+  {
+    "case_id": "TC25_068",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 3400000,
+      "age": 30,
+      "basic": 1360000.0,
+      "hra_received": 510000.0,
+      "rent_paid": 680000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 3400000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 510000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 2695000,
+        "slab_tax": 621000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 24840.0,
+        "total_tax": 645840
+      },
+      "new": {
+        "gross": 3400000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 3325000,
+        "slab_tax": 577500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 23100.0,
+        "total_tax": 600600
+      },
+      "recommended": "new",
+      "savings": 45240
+    },
+    "note": "Population case Gross=3400000."
+  },
+  {
+    "case_id": "TC25_069",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 4200000,
+      "age": 30,
+      "basic": 1680000.0,
+      "hra_received": 630000.0,
+      "rent_paid": 840000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 4200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 630000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 3375000,
+        "slab_tax": 825000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 33000.0,
+        "total_tax": 858000
+      },
+      "new": {
+        "gross": 4200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 4125000,
+        "slab_tax": 817500.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 32700.0,
+        "total_tax": 850200
+      },
+      "recommended": "new",
+      "savings": 7800
+    },
+    "note": "Population case Gross=4200000."
+  },
+  {
+    "case_id": "TC25_070",
+    "category": "stratified_population_2025",
+    "inputs": {
+      "gross_salary": 5200000,
+      "age": 30,
+      "basic": 2080000.0,
+      "hra_received": 780000.0,
+      "rent_paid": 1040000.0,
+      "metro": true,
+      "sec80c": 120000,
+      "sec80d_self": 25000
+    },
+    "expected": {
+      "old": {
+        "gross": 5200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 50000.0,
+          "hra_exemption": 780000.0,
+          "home_loan_interest": 0.0,
+          "sec80c": 120000.0,
+          "sec80ccd1b": 0.0,
+          "sec80d_self": 25000.0,
+          "sec80d_parents": 0.0
+        },
+        "taxable_income": 4225000,
+        "slab_tax": 1080000.0,
+        "rebate": 0.0,
+        "surcharge": 0.0,
+        "marginal_relief": 0.0,
+        "cess": 43200.0,
+        "total_tax": 1123200
+      },
+      "new": {
+        "gross": 5200000.0,
+        "deductions_breakdown": {
+          "standard_deduction": 75000.0
+        },
+        "taxable_income": 5125000,
+        "slab_tax": 1117500.0,
+        "rebate": 0.0,
+        "surcharge": 87500.0,
+        "marginal_relief": 24250.0,
+        "cess": 48200.0,
+        "total_tax": 1253200
+      },
+      "recommended": "old",
+      "savings": 130000
+    },
+    "note": "Population case Gross=5200000."
+  }
+]

@@ -1,0 +1,29 @@
+{
+  "1pct": {
+    "rate": 0.01,
+    "status": "PARTIAL_QUARANTINE",
+    "health_pct": 93.88,
+    "total_corrupt_rows": 612,
+    "total_time_ms": 241.58,
+    "total_cost_usd": 0.00675,
+    "alert_summary": "[PARTIAL_QUARANTINE] Batch EVAL_RATE_1PCT (10,000 rows) | Health: 93.88% | Corrupt: 612 | Latency: 241.6ms | Cost: $0.0067\nRecommendation: ACCEPT healthy records (9,388); QUARANTINE 612 flagged rows for remediation."
+  },
+  "5pct": {
+    "rate": 0.05,
+    "status": "BATCH_REJECTED",
+    "health_pct": 79.69,
+    "total_corrupt_rows": 2031,
+    "total_time_ms": 246.02,
+    "total_cost_usd": 0.00675,
+    "alert_summary": "[BATCH_REJECTED] Batch EVAL_RATE_5PCT (10,000 rows) | Health: 79.69% | Corrupt: 2,031 | Latency: 246.0ms | Cost: $0.0067\nRecommendation: REJECT batch: error rate (20.3%) exceeds 10% SLA threshold."
+  },
+  "20pct": {
+    "rate": 0.2,
+    "status": "BATCH_REJECTED",
+    "health_pct": 39.82,
+    "total_corrupt_rows": 6018,
+    "total_time_ms": 222.09,
+    "total_cost_usd": 0.00675,
+    "alert_summary": "[BATCH_REJECTED] Batch EVAL_RATE_20PCT (10,000 rows) | Health: 39.82% | Corrupt: 6,018 | Latency: 222.1ms | Cost: $0.0067\nRecommendation: REJECT batch: error rate (60.2%) exceeds 10% SLA threshold."
+  }
+}

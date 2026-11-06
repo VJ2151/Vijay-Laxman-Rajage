@@ -1,0 +1,12 @@
+{
+  "total_source_rows": 240000,
+  "confirmed_invalid_excluded": 226,
+  "clean_baseline_rows": 239774,
+  "exclusion_reasons": {
+    "closed_before_created": 226,
+    "out_of_bounds_coordinates": 0
+  },
+  "clean_calibration_rows": 119887,
+  "clean_evaluation_rows": 119887,
+  "random_seed": 42
+}

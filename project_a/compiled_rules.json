@@ -1,0 +1,139 @@
+{
+  "2024-25": {
+    "standard_deductions": {
+      "new": { "amount": 75000, "clause_id": "S115BAC-STD-DED" },
+      "old": { "amount": 50000, "clause_id": "OLD-STD-DED" }
+    },
+    "slabs": {
+      "new": [
+        { "lower": 0, "upper": 300000, "rate": 0.0, "clause_id": "S115BAC-SLAB" },
+        { "lower": 300000, "upper": 700000, "rate": 0.05, "clause_id": "S115BAC-SLAB" },
+        { "lower": 700000, "upper": 1000000, "rate": 0.10, "clause_id": "S115BAC-SLAB" },
+        { "lower": 1000000, "upper": 1200000, "rate": 0.15, "clause_id": "S115BAC-SLAB" },
+        { "lower": 1200000, "upper": 1500000, "rate": 0.20, "clause_id": "S115BAC-SLAB" },
+        { "lower": 1500000, "upper": null, "rate": 0.30, "clause_id": "S115BAC-SLAB" }
+      ],
+      "old_normal": [
+        { "lower": 0, "upper": 250000, "rate": 0.0, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 250000, "upper": 500000, "rate": 0.05, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-NORMAL" }
+      ],
+      "old_senior": [
+        { "lower": 0, "upper": 300000, "rate": 0.0, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 300000, "upper": 500000, "rate": 0.05, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-SENIOR" }
+      ],
+      "old_super": [
+        { "lower": 0, "upper": 500000, "rate": 0.0, "clause_id": "OLD-SLAB-SUPER" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-SUPER" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-SUPER" }
+      ]
+    },
+    "rebate_87a": {
+      "new": { "limit": 700000, "max_rebate": 25000, "marginal_relief": true, "clause_id": "S87A-NEW" },
+      "old": { "limit": 500000, "max_rebate": 12500, "marginal_relief": false, "clause_id": "S87A-OLD" }
+    },
+    "deductions": {
+      "sec80c": { "cap": 150000, "clause_id": "SEC-80C" },
+      "sec80ccd1b": { "cap": 50000, "clause_id": "SEC-80CCD1B" },
+      "sec80d_self": { "cap": 25000, "senior_cap": 50000, "clause_id": "SEC-80D" },
+      "sec80d_parents": { "cap": 25000, "senior_cap": 50000, "clause_id": "SEC-80D" },
+      "sec24b": { "cap": 200000, "clause_id": "SEC-24B" },
+      "hra": { "clause_id": "SEC-10-13A" }
+    },
+    "surcharge": {
+      "new": {
+        "thresholds": [
+          { "thresh": 5000000, "rate": 0.10 },
+          { "thresh": 10000000, "rate": 0.15 },
+          { "thresh": 20000000, "rate": 0.25 }
+        ],
+        "clause_id": "SURCHARGE-RATES",
+        "relief_clause_id": "SURCHARGE-RELIEF"
+      },
+      "old": {
+        "thresholds": [
+          { "thresh": 5000000, "rate": 0.10 },
+          { "thresh": 10000000, "rate": 0.15 },
+          { "thresh": 20000000, "rate": 0.25 },
+          { "thresh": 50000000, "rate": 0.37 }
+        ],
+        "clause_id": "SURCHARGE-RATES",
+        "relief_clause_id": "SURCHARGE-RELIEF"
+      }
+    },
+    "cess": { "rate": 0.04, "clause_id": "HEALTH-EDU-CESS" },
+    "rounding": { "income_clause_id": "SEC-288A", "tax_clause_id": "SEC-288B" }
+  },
+  "2025-26": {
+    "standard_deductions": {
+      "new": { "amount": 75000, "clause_id": "S115BAC-STD-DED" },
+      "old": { "amount": 50000, "clause_id": "OLD-STD-DED" }
+    },
+    "slabs": {
+      "new": [
+        { "lower": 0, "upper": 400000, "rate": 0.0, "clause_id": "S115BAC-SLAB" },
+        { "lower": 400000, "upper": 800000, "rate": 0.05, "clause_id": "S115BAC-SLAB" },
+        { "lower": 800000, "upper": 1200000, "rate": 0.10, "clause_id": "S115BAC-SLAB" },
+        { "lower": 1200000, "upper": 1600000, "rate": 0.15, "clause_id": "S115BAC-SLAB" },
+        { "lower": 1600000, "upper": 2000000, "rate": 0.20, "clause_id": "S115BAC-SLAB" },
+        { "lower": 2000000, "upper": 2400000, "rate": 0.25, "clause_id": "S115BAC-SLAB" },
+        { "lower": 2400000, "upper": null, "rate": 0.30, "clause_id": "S115BAC-SLAB" }
+      ],
+      "old_normal": [
+        { "lower": 0, "upper": 250000, "rate": 0.0, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 250000, "upper": 500000, "rate": 0.05, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-NORMAL" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-NORMAL" }
+      ],
+      "old_senior": [
+        { "lower": 0, "upper": 300000, "rate": 0.0, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 300000, "upper": 500000, "rate": 0.05, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-SENIOR" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-SENIOR" }
+      ],
+      "old_super": [
+        { "lower": 0, "upper": 500000, "rate": 0.0, "clause_id": "OLD-SLAB-SUPER" },
+        { "lower": 500000, "upper": 1000000, "rate": 0.20, "clause_id": "OLD-SLAB-SUPER" },
+        { "lower": 1000000, "upper": null, "rate": 0.30, "clause_id": "OLD-SLAB-SUPER" }
+      ]
+    },
+    "rebate_87a": {
+      "new": { "limit": 1200000, "max_rebate": 60000, "marginal_relief": true, "clause_id": "S87A-NEW" },
+      "old": { "limit": 500000, "max_rebate": 12500, "marginal_relief": false, "clause_id": "S87A-OLD" }
+    },
+    "deductions": {
+      "sec80c": { "cap": 150000, "clause_id": "SEC-80C" },
+      "sec80ccd1b": { "cap": 50000, "clause_id": "SEC-80CCD1B" },
+      "sec80d_self": { "cap": 25000, "senior_cap": 50000, "clause_id": "SEC-80D" },
+      "sec80d_parents": { "cap": 25000, "senior_cap": 50000, "clause_id": "SEC-80D" },
+      "sec24b": { "cap": 200000, "clause_id": "SEC-24B" },
+      "hra": { "clause_id": "SEC-10-13A" }
+    },
+    "surcharge": {
+      "new": {
+        "thresholds": [
+          { "thresh": 5000000, "rate": 0.10 },
+          { "thresh": 10000000, "rate": 0.15 },
+          { "thresh": 20000000, "rate": 0.25 }
+        ],
+        "clause_id": "SURCHARGE-RATES",
+        "relief_clause_id": "SURCHARGE-RELIEF"
+      },
+      "old": {
+        "thresholds": [
+          { "thresh": 5000000, "rate": 0.10 },
+          { "thresh": 10000000, "rate": 0.15 },
+          { "thresh": 20000000, "rate": 0.25 },
+          { "thresh": 50000000, "rate": 0.37 }
+        ],
+        "clause_id": "SURCHARGE-RATES",
+        "relief_clause_id": "SURCHARGE-RELIEF"
+      }
+    },
+    "cess": { "rate": 0.04, "clause_id": "HEALTH-EDU-CESS" },
+    "rounding": { "income_clause_id": "SEC-288A", "tax_clause_id": "SEC-288B" }
+  }
+}

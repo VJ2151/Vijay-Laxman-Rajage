@@ -1,0 +1,23 @@
+{
+  "experiment": "Task 5: FY 2025-26 Law Change Experiment",
+  "statutory_reference": "Finance Act 2025 amendments to Section 115BAC",
+  "files_touched": [
+    "project_a/rules_text/fy2025_26.md",
+    "project_a/tests/cases_fy2025_26.json",
+    "project_a/tests/oracle.py",
+    "project_a/impl_rules.py",
+    "project_a/compiled_rules.json",
+    "project_a/engine.py",
+    "project_a/tests/test_fy2025_26.py"
+  ],
+  "start_time": "2026-11-06T14:55:00Z",
+  "end_time": "2026-11-06T15:18:00Z",
+  "duration_minutes": 23,
+  "unchanged_implementation_behavior": {
+    "impl_a": "SILENT WRONG ANSWER: Evaluated new FY 2025-26 cases using old 2024-25 slabs (3L-7L 5% instead of 4L-8L 5%) and old 87A threshold (7L instead of 12L). Resulted in tax overcharges of up to Rs 60,000 with zero runtime exceptions.",
+    "impl_b": "PROMPT SENSITIVE: Absorbed changes when rule text updated in prompt, but suffered latency and occasional arithmetic imprecision.",
+    "impl_c": "RECOMPILE REQUIRED: Engine raised no error but computed FY 2024-25 rates until compiled_rules.json was updated with '2025-26' key."
+  },
+  "silent_failure_risk": "CRITICAL. Tax slab and rebate changes cause silent monetary loss for taxpayers without throwing any code exception. Automated regression testing against an independent oracle is essential.",
+  "regression_status": "PASS: 843 tests passed across FY 2024-25 and FY 2025-26 suites."
+}
